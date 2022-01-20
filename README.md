@@ -1,6 +1,6 @@
 # CNN_for_electron_tomography_segmentation_of_catalytic_materials
 
-Code for the U-Net model
+Code for the U-Net model, train model and evaluation
 
 Training and validation data set
 
