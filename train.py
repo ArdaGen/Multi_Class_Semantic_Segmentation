@@ -5,7 +5,7 @@
 Code is inspired from https://github.com/bnsreenu/python_for_microscopists.git
 and https://github.com/bnsreenu/python_for_image_processing_APEER.git
 
-Code used for Focal Loss can be found at https://github.com/artemmavrin/focal-loss.git
+Code/Library used for Focal Loss can be found at https://github.com/artemmavrin/focal-loss.git
 
 """
 
@@ -19,13 +19,13 @@ seed=24
 batch_size= 2
 
 
-
+# Prepare data for integer labeling
 def preprocess_data(img, mask, num_class):
     img = img.astype('float')/255.
     mask = mask.astype(np.int64)
     return (img,mask)
 
-
+# Data generator
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 def trainGenerator(train_img_path, train_mask_path, num_class):
@@ -106,6 +106,7 @@ IMG_CHANNELS = x.shape[3]
 n_classes=3
 
 
+# Compile and train model
 
 from focal_loss import SparseCategoricalFocalLoss
 from unet import unet_model
@@ -157,7 +158,7 @@ plt.ylabel('Accuracy')
 plt.legend()
 plt.show()
 
-
+# Save model
 model.save('model.hdf5')
 
 
