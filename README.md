@@ -26,6 +26,6 @@ Published paper can be found at:
 (https://arxiv.org/abs/2201.07342)
 
 ### Movie of the nanoscale &gamma;-Alumina particle
-
+***
 https://user-images.githubusercontent.com/86938894/150584955-2fc3883e-2da9-4c11-87bc-7ed99efedc10.mp4
 
