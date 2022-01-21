@@ -15,7 +15,7 @@ Training and validation data sets include ground-truth images and annotations.
   Class labels : 
   
   Background/Pores : 0,  &gamma;-Alumina : 1, Pt nanoparticles : 2
-* Each images and masks are 512x512 pixels patches.
+* Each image and mask are 512x512 pixels patches.
 
   45 for training and 15 for validation 
 
