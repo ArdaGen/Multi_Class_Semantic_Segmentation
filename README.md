@@ -5,9 +5,7 @@ Repository for the code used in " A Deep Learning Approach for Semantic Segmenta
 Python scripts for :
 * U-Net model
 * Train model
-* Evaluate model
-  
-  DSC, recall, precision
+* Evaluate model: DSC, recall, precision scores
 
 Training and validation data sets include ground-truth images and corresponding annotations. 
 * number of classes : 3
