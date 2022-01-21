@@ -10,6 +10,7 @@ Training and validation data set include ground-truth images and annotations
 
 Dataset and code were used in the following paper:
 
+### Reference
 @misc{genc2022deep,
       title={A Deep Learning Approach for Semantic Segmentation of Unbalanced Data in Electron Tomography of Catalytic Materials}, 
       author={Arda Genc and Libor Kovarik and Hamish L. Fraser},
