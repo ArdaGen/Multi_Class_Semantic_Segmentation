@@ -1,4 +1,4 @@
-# CNN_for_electron_tomography_segmentation_of_catalytic_materials
+# Repository for the code used in " A Deep Learning Approach For Semantic Segmentation of Unbalanced Data in Electron Microscopy of Catalytic Materials"
 
 Code for train model, unet model and evaluation
 
