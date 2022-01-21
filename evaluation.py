@@ -54,7 +54,7 @@ print("IoU for class 1 is: ", class1_IoU)
 print("IoU for class 2 is: ", class2_IoU)
 print("IoU for class 3 is: ", class3_IoU)
 
-#To calculate Dice for three class
+#To calculate DSC for three class
 values = np.array(IOU_keras.get_weights()).reshape(n_classes, n_classes)
 print(values)
 
@@ -68,8 +68,7 @@ print("Dice for class 2 is: ", class2_Dice)
 print("Dice for class 3 is: ", class3_Dice)
 
  
-
-# to calcualte Recall for three class : Recall
+# To calcualte Recall for three class : Recall
 
 class1_Recall = values[0,0]/(values[0,0] + values[0,1] + values[0,2])
 class2_Recall = values[1,1]/(values[1,1] + values[1,0] + values[1,2])
@@ -79,7 +78,7 @@ print("Recall for class 1 is: ", class1_Recall)
 print("Recall for class 2 is: ", class2_Recall)
 print("Recall for class 3 is: ", class3_Recall)
 
-# to calculate Precision for three class: Precision
+# To calculate Precision for three class: Precision
 
 class1_Precision = values[0,0]/(values[0,0] + values[1,0] + values[2,0])
 class2_Precision = values[1,1]/(values[1,1] + values[0,1] + values[2,1])
