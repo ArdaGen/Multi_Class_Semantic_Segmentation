@@ -7,7 +7,7 @@ Python scripts for :
 * Train model
 * Evaluate model
   
-  DSC, precision, recall
+  DSC, recall, precision
 
 Training and validation data sets include ground-truth images and corresponding annotations. 
 * number of classes : 3
@@ -15,9 +15,9 @@ Training and validation data sets include ground-truth images and corresponding 
   Class labels : 
   
   Background/Pores : 0,  &gamma;-Alumina : 1, Pt nanoparticles : 2
-* Each image and mask are 512x512 pixels patches.
+* Image sets are 512x512 pixels patches.
 
-  45 image set for training and 15 image set for validation 
+  45 images for training and 15 images for validation 
 
 
 ### Paper Link
