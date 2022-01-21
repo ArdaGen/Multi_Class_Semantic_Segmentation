@@ -19,7 +19,7 @@ seed=24
 batch_size= 2
 
 
-# Prepare data for integer labeling
+# Prepare masks for integer encoding and normalize images
 def preprocess_data(img, mask, num_class):
     img = img.astype('float')/255.
     mask = mask.astype(np.int64)
@@ -108,7 +108,7 @@ n_classes=3
 
 # Compile and train model
 
-from focal_loss import SparseCategoricalFocalLoss
+from focal_loss import SparseCategoricalFocalLoss 
 from unet import unet_model
 
 def get_model():
