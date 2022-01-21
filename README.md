@@ -1,4 +1,6 @@
-# Repository for the code used in " A Deep Learning Approach For Semantic Segmentation of Unbalanced Data in Electron Microscopy of Catalytic Materials"
+# Semantic Segmentation of 3D HAADF STEM Reconstructions
+
+Repository for the code used in " A Deep Learning Approach For Semantic Segmentation of Unbalanced Data in Electron Microscopy of Catalytic Materials"
 
 Code for train model, unet model and evaluation
 
