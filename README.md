@@ -1,4 +1,4 @@
-## Multi-class CNN Segmentation of 3D HAADF STEM Tomography Reconstructions of a &gamma;-Alumina/Pt catalytic material
+## Multi-Class Semantic Segmentation of 3D HAADF STEM Tomography Reconstructions of a &gamma;-Alumina/Pt catalytic material
 
 Repository for the code used in " A Deep Learning Approach for Semantic Segmentation of Unbalanced Data in Electron Microscopy of Catalytic Materials."
 
