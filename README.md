@@ -21,7 +21,7 @@ Training and validation data sets include ground-truth images and corresponding 
 ## Paper Link
 
 Published paper can be found at:
-(https://arxiv.org/abs/2201.07342)
+https://www.nature.com/articles/s41598-022-16429-3
 
 ## Movie of the nanoscale &gamma;-Alumina particle
 
