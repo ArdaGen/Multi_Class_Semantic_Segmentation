@@ -8,7 +8,7 @@ Python scripts for :
 * Evaluate model: DSC, recall, precision scores
 
 Training and validation data sets include ground-truth images and corresponding annotations. 
-* number of classes : 3
+* Number of classes : 3
   
   Class labels : 
   
